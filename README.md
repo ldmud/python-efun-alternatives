@@ -9,6 +9,11 @@ This package contains the following efuns:
  * `json` module:
     * `mixed json_parse(string jsonstring)`
     * `string json_serialize(mixed data)`
+ * `sqlite` module:
+    * `int sl_open(string filename)`
+    * `void sl_close()`
+    * `mixed * sl_exec(string statement, ...)`
+    * `int sl_insert_id()`
 
 ## Usage
 
